@@ -24,7 +24,7 @@ const reducer = ( state = initialState, action ) => {
     if (action.type === 'REMOVE') {
         return {
             ...state,
-            counter: state.counter - 1
+            counter: state.counter - 5
         }
     }
     
